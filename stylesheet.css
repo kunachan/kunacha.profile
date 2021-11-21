@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size:62.5%
+ }
+body {
+    color: #383e45;
+}
+ li{
+    list-style:none;
+}
+
+.wrapper {
+    max-width: 960px;
+    padding: 0 4%;
+    text-align: center;
+    margin:0 auto;
+}
+
+
+
+ /* ヘッダー
+=============*/
+header {
+    display:flex;
+    justify-content: space-between;
+}
+#header {
+    margin:10px auto;
+}
+.header-left img{
+    width:120px;
+    height:40px;
+}
+.header-right ul{
+    display:flex;
+}
+
+.header-right li {
+    padding:0 10px;
+    font-size:1.5rem;
+}
+a {
+    text-decoration: none;
+    color:#383e45;
+}
+a:hover {
+    color: #aca7a7;
+ }
+
+ /* メインビジュアル
+=============*/
+#mainvisual img {
+    width: 100%;
+    max-width: 1920px;
+    height: 600px;
+    object-fit: cover;
+}
+#mainvisual {
+    text-align:center;
+}
+/* アバウト
+=============*/
+h1 {
+    font-size:3.2rem;
+    border-bottom:1px #383e45 solid;
+    display: inline-block;
+    margin:100px 0 30px;
+}
+p {
+    font-size:1.5rem;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about img{
+    border-radius: 50%;
+    width:150px;
+    height:150px;
+    margin-right:30px;
+}
+.text {
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+}
+
+/* 自転車
+=============*/
+#bicycle img {
+    max-width:100%;
+}
+
+#bicycle ul {
+    display: flex;
+    justify-content: space-between;
+}
+#bicycle li {
+    width:100%;
+    padding-right:20px;
+}
+h3 {
+    font-size:1.5rem;
+}
+#bicycle {
+    margin-bottom:100px;
+}
+
+/* フッター
+=============*/
+footer p{
+    font-size:0.5rem;
+}
+footer {
+    margin:0
+}
